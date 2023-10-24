@@ -1,33 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Porfolio</title>
 </head>
-<body bgcolor="white">
-    <header>
-        <center><h1 class="Titulo" > Nombre no definido </h1></center>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-solid fa-square-poll-vertical"></i>
+                        <h1>Of the future </h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                    </nav>
+    
+                    <!--Icono del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>El click de la información </h2>
+                        <p>¡Bienvenidos a mi sitio web basado en un portafolio personal y profesional! Aquí encontrarán una muestra de mi trabajo y experiencia en diferentes áreas, desde proyectos personales hasta colaboraciones profesionales. Espero que puedas conocerme mejor a través de mi trabajo y que encuentres lo que estás buscando. ¡Gracias por visitar mi sitio web!</p>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/imagenn1.png"alt="">
+                    </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</span>
 
-    </header>
-    <main>
-        <section>
-            <article>
-                <h1>¡Bienvenidos a mi sitio web de portafolio personal y profesional! Aquí encontrarán una muestra de mi trabajo y experiencia en diferentes áreas, desde proyectos personales hasta colaboraciones profesionales. Espero que puedas conocerme mejor a través de mi trabajo y que encuentres lo que estás buscando. ¡Gracias por visitar mi sitio web!</h1>
-            </article>
-            <br>
-            <hr>
-            <article>
-                <center><h1 class="color1">Luga</h1></center>
-                <a href="lugar.html">información</a>
-                <p style="text-align: right;">😌</p>
-            </article>
-            <br>
-            <hr>
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+<!-- sección SERVICIOS -->
+<section id="servicios" class="servicios">
+    <div class="fila">
+        <div class="col">
+            <div class="card">
+                <div class="icono color1">
+                    <div class="circulo">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
+                </div>
+                <h3>Nombre no definido</h3>
+                <p>¡UPSS! Estamos trabajando en esta sección, danos un tiempo para esto, gracias por tu comprensión.</p>
+            </div>
+    </div>
+</div>
+</section>
+    <script src="app.js"></script>
 </body>
 </html>
