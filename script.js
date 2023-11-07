@@ -51,7 +51,7 @@ for(i=0; i < links.length;i++){
         var x = document.getElementById("nav");
         x.className = "";
 
-        //removemos el boton eliminar
+        //removemos el boton eliminar-
         btnEliminar = document.querySelector("#nav span");
         btnEliminar.remove();
     }
