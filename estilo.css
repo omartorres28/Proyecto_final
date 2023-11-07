@@ -15,7 +15,7 @@ body{
 
 /* SECCION I N I C I O */
 .inicio{
-    background:linear-gradient(to right, #363d78, #13314c);
+    background:linear-gradient(to right, #16193b, #13314c);
     clip-path: polygon(50% 0%, 100% 0, 90% 65%, 10% 65%, 0 0);
     height: 90vh;
     padding:  0 20px;
@@ -155,10 +155,10 @@ body{
     font-size: 20px;
 }
 .color1{
-    background: linear-gradient(#ff9900, #ff5b00);
+    background: linear-gradient(#605fac, #086c85);
 }
 .color2{
-    background: linear-gradient(#038aee, #0039a9);
+    background: linear-gradient(#038aee, #545e70);
 }
 .color3{
     background: linear-gradient(#04e2ee, #017795);
@@ -197,7 +197,7 @@ body{
     text-decoration: none;
     display: inline-block;
     margin: 0 20px;
-    color: #007be5;
+    color: #0d2336;
     font-weight: bold;
     padding: 3px 10px;
     border: 3px solid transparent;
@@ -262,8 +262,8 @@ body{
 /* SECCIÓN C O N T A C T O */
 .contacto{
     background:
-        linear-gradient(rgba(0,12,103,1), rgba(0,12,103,.8)),
-        url(img/foto-contacto.png);
+        linear-gradient(rgb(14, 32, 34), rgba(24, 27, 53, 0.8)),
+        url(img/imagenn1.png);
         background-size: cover;
         color: #fff;
         margin-top: 100px;
