@@ -21,12 +21,6 @@ function verCategoria(cat){
     itemSeleccionado.className = "borde";
 }
 
-
-//detecto el scrolling para aplicar la animación de las habilidaes
-window.onscroll = function(){
-    efectoHabilidades();
-}
-
 //función que muestra el menu responsive{
 function responsiveMenu(){
     let x = document.getElementById("nav");

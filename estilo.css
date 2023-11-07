@@ -99,7 +99,7 @@ body{
     display: none;
 }
 #icono-nav:hover{
-    background-color: #3e3e3e;
+    background-color: #000000;
 }
 .sombra{
     filter:drop-shadow(0em 30px 20px #9bd2f4);
@@ -126,7 +126,7 @@ body{
     width: 30%;
 }
 .servicios .fila .col .card{
-    border: 1px solid #8d8d8d;
+    border: 1px solid #4f4b4b;
     height: 400px;
     background-color: #fff;
     padding: 30px;
@@ -167,7 +167,7 @@ body{
     margin-bottom: 20px;
 }
 .servicios .card p{
-    color: #8d8d8d;
+    color: #000000;
     line-height: 28px;
     font-size: 12px;
 }
@@ -263,7 +263,7 @@ body{
 .contacto{
     background:
         linear-gradient(rgb(14, 32, 34), rgba(24, 27, 53, 0.8)),
-        url(img/imagenn1.png);
+        url(img/fondo.jpeg);
         background-size: cover;
         color: #fff;
         margin-top: 100px;
